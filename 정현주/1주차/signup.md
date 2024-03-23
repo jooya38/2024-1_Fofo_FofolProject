@@ -20,7 +20,7 @@ API와 앱 연동의 원리
 
 #### api.dart 파일 생성
 
-```
+```dart
 
 class API{
 	static const hostConnect = " {api_new_members} ";
@@ -36,7 +36,7 @@ signup과정을 위해 signup.php에도 접근 가능해야 함 <br>
 
 #### signup.dart 생성
 
-```
+```dart
 
 Form(
                   key: formKey,
@@ -70,7 +70,7 @@ validate를 위해 Form 위젯, TextFormField 위젯 사용
 <br>
 
 
-```
+```dart
 class _SignupPageState extends State<SignupPage> {
   var formKey = GlobalKey<FormState>();
 
@@ -84,7 +84,7 @@ class _SignupPageState extends State<SignupPage> {
 <br>
 
 
-```
+```dart
                           child: Padding(
                             padding: const EdgeInsets.only(left: 20.0),
                             child: TextFormField(
@@ -99,7 +99,7 @@ controller, validator 아규먼트 사용 및 삼항 연산자 사용(사용자�
 <br>
 <br>
 
-```
+```dart
 checkUerEmail() async{
 }
 ```
@@ -108,7 +108,7 @@ http 패키지 필요 , 상단 import 해두기
 <br>
 <br>
 
-```
+```dart
   checkUserEmail() async {
     try {
       var response = await http.post(Uri.parse(API.validateEmail),
@@ -142,7 +142,7 @@ body: {'user_email': emailController.text.trim()}); <br>
 
 
 #### user.dart 생성
-```
+```dart
 class User{
   int user_id;
   String user_name;
@@ -164,7 +164,7 @@ class User{
 
 <br>
 
-```
+```dart
   saveInfo() async {
     User userModel = User(1, userNameController.text.trim(),
         emailController.text.trim(), passwordController.text.trim());
