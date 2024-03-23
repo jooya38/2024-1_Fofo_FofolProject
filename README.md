@@ -1,5 +1,5 @@
 
-![header](https://capsule-render.vercel.app/api?type=rounded&color=0:7DCCF1,100:B3F9AA&height=150&section=header&text=Fofol&fontSize=65&fontColor=000000&desc=2024-1%20북악스터디%20Fofo팀&descAlignY=80)
+![header](https://capsule-render.vercel.app/api?type=rounded&color=0:7DCCF1,100:B3F9AA&height=200&section=header&text=Fofol&fontSize=65&fontColor=000000&desc=2024-1%20북악스터디%20Fofo팀&descAlignY=80)
 
 <br>
 <div align=center>
