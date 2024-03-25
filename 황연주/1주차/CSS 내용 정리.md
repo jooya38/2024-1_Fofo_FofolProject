@@ -78,7 +78,7 @@ HTML 문서마다 스타일을 지정해줘야한다. (한 문서에만 해당�
 
 - block (블록)
 display 속성값이 block인 요소는 새로운 line에서 시작하고 해당 라인의 모든 너비를 차지한다.
-대표적으로 <div>, <h1>, <p>, <ul>, <ol>, <form>이 있다.
+대표적으로 div, h1, p, ul, ol, form 이 있다.
   
 - inline (인라인)
 display 속성값이 inline인 요소는 새로운 line에서 시작하지 않고 요소의 너비는 해당 HTML 요소의 내용만큼 차지한다.
