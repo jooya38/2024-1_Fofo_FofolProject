@@ -70,7 +70,7 @@ HTML 문서마다 스타일을 지정해줘야한다. (한 문서에만 해당�
 
 # CSS 위치 속성
 
-# display 속성
+## display 속성
 
 웹 페이지의 layout을 결정하는 CSS의 속성 중 하나
 
@@ -100,7 +100,7 @@ HTML의 모든 요소는 각각의 기본 display 속성값을 가지고 있다.
     - 너비와 높이를 설정할 수 있다.
     - block 요소처럼 margin 을 이용하여 여백을 지정할 수도 있다.
 
-# float 속성
+## float 속성
 
 HTML 요소가 주변의 다른 요소들과 자연스럽게 어울리도록 설정한다.
 
@@ -162,7 +162,7 @@ float와 overflow
 
 → float 속성만 있을 때와 달리 박스 주위에 배열된 텍스트가 정렬되었다.
 
-# position 속성
+## position 속성
 
 position 속성은 HTML 요소가 위치를 결정하는 방식을 설정한다.
 
