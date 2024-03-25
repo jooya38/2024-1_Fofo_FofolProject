@@ -2,7 +2,7 @@
 **html : 문서의 구조와 내용을 다루는 언어. -> 웹피이지의 뼈대를 만드는 언어**
 
 ```html
-<!DOCTYPE html>                         <!-- 1) doctype -->
+<!DOCTYPE html>                         <!-- 1) doctype  VSCode에서 !를 입력하면 기본으로 만들어짐.-->
 <html lang="ko">                        <!-- 2) <html> 태그 -->
   <head>                                <!-- 3) <head> 태그 -->
     <meta charset="UTF-8">
