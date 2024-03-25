@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <title>HTML 기본구조</title>
   </head>
-  <body>                                <!-- 4) <body> 태 -->
+  <body>                                <!-- 4) <body> 태그 -->
     <h1>Hello, HTML</h1>
   </body>
 </html>
