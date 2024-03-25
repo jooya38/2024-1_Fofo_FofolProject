@@ -82,16 +82,13 @@ display 속성값이 block인 요소는 새로운 line에서 시작하고 해당
   
 - inline (인라인)
 display 속성값이 inline인 요소는 새로운 line에서 시작하지 않고 요소의 너비는 해당 HTML 요소의 내용만큼 차지한다.
-대표적으로 <span>, <a>, <img>이 있다
+대표적으로 <span>, <a>, <img>이 있다.
 
 HTML의 모든 요소는 각각의 기본 display 속성값을 가지고 있다.
-
 하지만 display 속성값이 block 인 요소의 속성값을 inline 으로 바꿀 수 있고 inline 인 요소의 속성값을 block 으로 바꿀 수도 있다.
 
-- **inline-block (인라인-블록)**
-    
-    display 속성값이 inline-block으로 설정된 요소는 해당 요소 자체는 inline 요소처럼 동작한다. 하지만 해당 요소 내부에서는 block 요소처럼 동작한다.
-    
+- inline-block (인라인-블록)
+display 속성값이 inline-block으로 설정된 요소는 해당 요소 자체는 inline 요소처럼 동작한다. 하지만 해당 요소 내부에서는 block 요소처럼 동작한다.
     - 너비와 높이를 설정할 수 있다.
     - block 요소처럼 margin 을 이용하여 여백을 지정할 수도 있다.
 
