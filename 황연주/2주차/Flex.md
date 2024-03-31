@@ -6,7 +6,7 @@ flex는 container와 items로 나뉜다.
 
 → container는 items를 감싸는 부모요소이고, item을 정렬하기 위해서는 container가 필수다.
 
-![container와 items에 적용하는 속성은 그림과 같이 구분되어 있다.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/831cee87-9789-44b9-8705-800245d46f85/Untitled.png)
+![container와 items에 적용하는 속성은 그림과 같이 구분되어 있다.](./Untitled.png)
 
 container와 items에 적용하는 속성은 그림과 같이 구분되어 있다.
 
