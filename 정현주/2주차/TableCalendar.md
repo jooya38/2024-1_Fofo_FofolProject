@@ -28,6 +28,7 @@ Table Calendar was able to achieve the all caps day labels, but still had issues
 
 
 Original on the left, Table Calendar on the right<br>
+<br>
 ✅ Event markers<br>
 ✅ Custom day titles (SUN, MON, TUE, WED, THU, FRI, SAT) with Sunday as first day of week<br>
 ✅ Visible (but grey) dates from the previous and next months<br>
