@@ -3,7 +3,7 @@
 PostgreSQL과 pgAdmin 4 다운로드부터 `INSERT`, `DELETE`와 같은 기본 SQL 작업 실행, 새로운 테이블 생성, 초보자로써 만든 내 PostgreSQL 학습 기록에 오신 것을 환영합니다. 
 
 ## PostgreSQL 및 pgAdmin 4 시작하기
-
+<img src="../2주차/images/image.png" alt="create_table" width="400"/>
 ### PostgreSQL 다운로드 및 설치
 
 시작하는 방법은 다음과 같습니다:
@@ -14,7 +14,7 @@ PostgreSQL과 pgAdmin 4 다운로드부터 `INSERT`, `DELETE`와 같은 기본 S
 4. **인스톨러 실행**:  pgAdmin 4를 설치도 하도록 합니다.
 
 ### pgAdmin 4 설정하기
-
+<img src="../2주차/images/pgAdmin4_QZQQtt0IaK.png" alt="create_table" width="400"/>
 pgAdmin 4는 PostgreSQL을 위한 웹 기반 관리 도구입니다. 데이터베이스를 관리하기 위해 사용자 친화적인 인터페이스를 제공합니다.
 
 - PostgreSQL 설치 후, pgAdmin 4가 자동으로 설정되었습니다.
@@ -38,6 +38,9 @@ CREATE TABLE users (
 );
 
 ```
+<img src="../2주차/images/create_table1.png" alt="create_table" width="300"/>
+
+<img src="../2주차/images/create_table2.png" alt="create_table" width="300"/>
 
 **SERIAL**은 자동 증가하는 정수 시퀀스에 사용됩니다.
 **VARCHAR(n)**은 가변 길이 문자열을 지정합니다.
@@ -50,6 +53,7 @@ CREATE TABLE users (
 INSERT INTO users (name, email, number, gender)
 VALUES ('Anu', 'anu.bn@yahoo.com', '1234567890', '여성');
 ```
+
 ### 데이터 조회하기
 
 데이터를 보려면 `SELECT` 문이 사용됩니다. `users` 테이블에서 모든 레코드를 검색하는 방법은 다음과 같습니다:
@@ -57,6 +61,8 @@ VALUES ('Anu', 'anu.bn@yahoo.com', '1234567890', '여성');
 ```sql
 SELECT * FROM users;
 ```
+<img src="../2주차/images/insert_values.png" alt="create_table" width="500"/>
+
 ### 데이터 업데이트하기
 
 때로는 데이터를 업데이트해야 합니다. 사용자의 이메일을 업데이트하는 방법은 다음과 같습니다:
@@ -66,13 +72,8 @@ UPDATE users
 SET email = 'new.email@example.com'
 WHERE id = 1;
 ```
-### 데이터 조회하기
+<img src="../2주차/images/update_data.png" alt="create_table" width="500"/>
 
-테이블 내의 데이터를 조회하는 것은 데이터를 분석하거나 확인할 때 씁니다. PostgreSQL에서 테이블의 모든 데이터를 조회하려면 `SELECT` 문을 사용합니다. 예를 들어, `users` 테이블의 모든 데이터를 보고 싶다면 다음과 같은 명령어를 사용합니다:
-
-```sql
-SELECT * FROM users;
-```
 ### 테이블 삭제하기
 
 데이터베이스에서 더 이상 필요하지 않은 테이블을 제거하고 싶을 때, `DROP TABLE` 문을 씁니다. 단, 조심하게 쓰지 않으면 안애 있는 모든 데이터가 삭제될 수 있습니다.
@@ -80,6 +81,8 @@ SELECT * FROM users;
 ```sql
 DROP TABLE users;
 ```
+<img src="../2주차/images/drop_table.png" alt="create_table" width="300"/>
+
 ### 데이터 삭제하기
 
 그리고 마지막으로 테이블에서 사용자를 삭제하는 방법:
@@ -88,6 +91,13 @@ DROP TABLE users;
 DELETE FROM users
 WHERE id = 1;
 ```
+<img src="../2주차/images/delete_data.png" alt="create_table" width="300"/>
+
 ## 결론
 
 이것은 PostgreSQL의 기분 시작이라고 볼 수 있습니다. 테이블 생성, 데이터 삽입, 조회, 업데이트, 삭제와 같은 이러한 기본 작업은 postgreSQL뿐만 아니라 모든 관계형 데이터베이스 작업의 기초를 형성합니다.
+
+<img src="../2주차/images/PostgreSQL-Logo.wine.png" alt="create_table" width="400"/>
+
+
+
