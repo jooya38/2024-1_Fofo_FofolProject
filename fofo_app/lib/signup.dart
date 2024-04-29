@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fofo_app/colors/screen.colors.dart';
+// import 'package:fofo_app/colors/screen.colors.dart';
 
 class Signup extends StatelessWidget {
   const Signup({super.key});
