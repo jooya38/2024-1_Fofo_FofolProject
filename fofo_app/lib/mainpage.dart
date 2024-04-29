@@ -13,13 +13,21 @@ class MainPage extends StatelessWidget {
             height: 100,
             child: Row(
               children: [
-                Text(
-                  "Fofol",
-                  style: TextStyle(
-                    fontSize: 200,
-                    fontWeight: FontWeight.bold,
-                    color: Color(0xFF647087),
+                Container(
+                  child: Text(
+                    "Fofol",
+                    textAlign:TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 50,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF647087),
+                    ),
                   ),
+                ),
+                Container(
+                  child: Icon(
+                    Icons.settings,
+                    ),
                 ),
               ],),
           ),],
