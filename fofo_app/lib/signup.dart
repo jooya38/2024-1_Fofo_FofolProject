@@ -6,7 +6,7 @@ class Signup extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    backgroundColor : Colors.white;
+    // backgroundColor : Colors.white;
     // backgroundColor: ScreenColors.mainblueColor;
     return Stack(
       alignment : AlignmentDirectional.topCenter,

@@ -20,10 +20,9 @@ class MainPage extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     color: Color(0xFF647087),
                   ),
-                )
+                ),
               ],),
-          ),
-        ],
+          ),],
       ),
     );
   }
