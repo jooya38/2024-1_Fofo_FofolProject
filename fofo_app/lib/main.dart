@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fofo_app/mainpage.dart';
 import 'signup.dart';
 
 void main(){

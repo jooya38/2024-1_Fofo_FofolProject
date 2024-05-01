@@ -77,21 +77,21 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: YES24CothicB
+    - family: YES24GothicB
       fonts:
-        - asset: assets/fonts/YES24CothicB.ttf
+        - asset: assets/fonts/YES24GothicB.ttf
 
-    - family: YES24CothicEB
+    - family: YES24GothicEB
       fonts:
-        - asset: assets/fonts/YES24CothicEB.ttf
+        - asset: assets/fonts/YES24GothicEB.ttf
 
-    - family: YES24CothicM
+    - family: YES24GothicM
       fonts:
-        - asset: assets/fonts/YES24CothicM.ttf
+        - asset: assets/fonts/YES24GothicM.ttf
 
-    - family: YES24CothicR
+    - family: YES24GothicR
       fonts:
-        - asset: assets/fonts/YES24CothicR.ttf
+        - asset: assets/fonts/YES24GothicR.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

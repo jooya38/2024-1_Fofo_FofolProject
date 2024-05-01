@@ -5,6 +5,42 @@ class Activity_List extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+return Scaffold(
+      body: Column(
+        children: [
+          Stack(
+            children: [
+              Container(
+                width: double.infinity,
+                // padding: EdgeInsets.all(15),
+                height: 100,
+                child: Center(
+                    child: Text(
+                        "Fofol",
+                        style: TextStyle(
+                          fontSize: 50,
+                          fontFamily: 'YES24GothicR',
+                          fontWeight: FontWeight.bold,
+                          fontStyle: FontStyle.italic,
+                          color: Color(0xFF647087),
+                        ),
+                      ),
+                  ),
+              ),
+              Container(
+                alignment: Alignment.topRight,
+                margin: EdgeInsets.all(20),
+                child: IconButton(
+                  icon: Icon(Icons.settings),
+                  iconSize: 50,
+                  onPressed: (){},
+                ),
+              ),
+            ],
+          ),],
+      ),
+    );
   }
 }
+
+
