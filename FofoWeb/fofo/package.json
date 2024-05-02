@@ -11,8 +11,13 @@
     "nth-check": "^2.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-router-dom": "^6.22.3",
     "react-scripts": "^3.0.1",
+=======
+    "react-router-dom": "^6.23.0",
+    "react-scripts": "^5.0.1",
+>>>>>>> 9bf88141d818358b570e9fd956965496f4e814ed
     "web-vitals": "^2.1.4"
   },
   "scripts": {

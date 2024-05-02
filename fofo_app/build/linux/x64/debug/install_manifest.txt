@@ -1,0 +1,13 @@
+/home/user/바탕화면/2024-1_Fofo_FofolProject/fofo_app/build/linux/x64/debug/bundle/fofo_app
+/home/user/바탕화면/2024-1_Fofo_FofolProject/fofo_app/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/user/바탕화면/2024-1_Fofo_FofolProject/fofo_app/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/user/바탕화면/2024-1_Fofo_FofolProject/fofo_app/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/user/바탕화면/2024-1_Fofo_FofolProject/fofo_app/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/user/바탕화면/2024-1_Fofo_FofolProject/fofo_app/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/user/바탕화면/2024-1_Fofo_FofolProject/fofo_app/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/user/바탕화면/2024-1_Fofo_FofolProject/fofo_app/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.bin
+/home/user/바탕화면/2024-1_Fofo_FofolProject/fofo_app/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/user/바탕화면/2024-1_Fofo_FofolProject/fofo_app/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/user/바탕화면/2024-1_Fofo_FofolProject/fofo_app/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/user/바탕화면/2024-1_Fofo_FofolProject/fofo_app/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES
+/home/user/바탕화면/2024-1_Fofo_FofolProject/fofo_app/build/linux/x64/debug/bundle/data/flutter_assets/version.json
