@@ -4,8 +4,9 @@ import MyProfile from './MyProfile/MuProfile.js';
 import Project from './Project/Project.js';
 import ProjectFile from './ProjectFile/ProjectFile.js';
 import Write from './Write/Write.js';
+import Main from './App.js';
+import Signup from './Signup/Signup.js';
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path={'/Write'} element={<Write />}></Route>
           <Route path={'/ProjectFile'} element={<ProjectFile />}></Route>
           <Route path={'/Login'} element={<Login />}></Route>
+          <Route path={'/Signup'} element={<Signup />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
