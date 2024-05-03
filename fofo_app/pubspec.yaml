@@ -38,8 +38,12 @@ dependencies:
   get: ^4.6.6
   hexcolor: ^3.0.1
   settings_ui: ^2.0.2
+<<<<<<< HEAD
   table_calendar: ^3.0.8
   intl: ^0.17.0
+=======
+  table_calendar: ^3.1.1
+>>>>>>> db2e05d (<fix> settings)
 
 dev_dependencies:
   flutter_test:

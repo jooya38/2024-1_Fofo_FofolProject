@@ -36,12 +36,21 @@ file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/get-4.6.6/
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/get-4.6.6/lib/
 hexcolor
 2.18
+<<<<<<< HEAD
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/hexcolor-3.0.1/
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/hexcolor-3.0.1/lib/
 intl
 2.12
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.17.0/
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.17.0/lib/
+=======
+file:///home/user/.pub-cache/hosted/pub.dev/hexcolor-3.0.1/
+file:///home/user/.pub-cache/hosted/pub.dev/hexcolor-3.0.1/lib/
+intl
+3.0
+file:///home/user/.pub-cache/hosted/pub.dev/intl-0.19.0/
+file:///home/user/.pub-cache/hosted/pub.dev/intl-0.19.0/lib/
+>>>>>>> db2e05d (<fix> settings)
 lints
 3.0
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/lints-2.1.1/
@@ -64,12 +73,21 @@ file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.8.3/
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.8.3/lib/
 settings_ui
 2.12
+<<<<<<< HEAD
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/settings_ui-2.0.2/
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/settings_ui-2.0.2/lib/
 simple_gesture_detector
 2.12
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/simple_gesture_detector-0.2.1/
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/simple_gesture_detector-0.2.1/lib/
+=======
+file:///home/user/.pub-cache/hosted/pub.dev/settings_ui-2.0.2/
+file:///home/user/.pub-cache/hosted/pub.dev/settings_ui-2.0.2/lib/
+simple_gesture_detector
+2.12
+file:///home/user/.pub-cache/hosted/pub.dev/simple_gesture_detector-0.2.1/
+file:///home/user/.pub-cache/hosted/pub.dev/simple_gesture_detector-0.2.1/lib/
+>>>>>>> db2e05d (<fix> settings)
 source_span
 2.18
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.0/
@@ -84,12 +102,21 @@ file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/stream_channel-2.1.
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/stream_channel-2.1.1/lib/
 string_scanner
 2.18
+<<<<<<< HEAD
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/string_scanner-1.2.0/
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/string_scanner-1.2.0/lib/
 table_calendar
 2.12
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/table_calendar-3.0.8/
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/table_calendar-3.0.8/lib/
+=======
+file:///home/user/.pub-cache/hosted/pub.dev/string_scanner-1.2.0/
+file:///home/user/.pub-cache/hosted/pub.dev/string_scanner-1.2.0/lib/
+table_calendar
+3.0
+file:///home/user/.pub-cache/hosted/pub.dev/table_calendar-3.1.1/
+file:///home/user/.pub-cache/hosted/pub.dev/table_calendar-3.1.1/lib/
+>>>>>>> db2e05d (<fix> settings)
 term_glyph
 2.12
 file:///C:/Users/user/AppData/Local/Pub/Cache/hosted/pub.dev/term_glyph-1.2.1/

@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:fofo_app/setting.dart';
+<<<<<<< HEAD
 import 'signup.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:table_calendar/table_calendar.dart';
+=======
+// import 'signup.dart';
+>>>>>>> db2e05d (<fix> settings)
 
 void main() {
   initializeDateFormatting().then((_) => runApp(const MyApp()));
