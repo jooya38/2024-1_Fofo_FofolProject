@@ -15,7 +15,7 @@ const Main_leftnav = () => {
     <div className="container">
       <div className="profile">
         {/* <img
-          src={require('./profile.jpg')} // 프로필 사진의 경로
+          src={require('./profile.jpg')} // 프로필 사진 -> 아직 사진 포함 안해서 주석처리
           alt="Profile"
           className="profileImage"
         /> */}
