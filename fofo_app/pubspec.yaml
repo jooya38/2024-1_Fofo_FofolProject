@@ -37,6 +37,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   get: ^4.6.6
   hexcolor: ^3.0.1
+  settings_ui: ^2.0.2
+  table_calendar: ^3.0.8
+  intl: ^0.17.0
 
 dev_dependencies:
   flutter_test:
@@ -77,21 +80,21 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: YES24CothicB
+    - family: YES24GothicB
       fonts:
-        - asset: assets/fonts/YES24CothicB.ttf
+        - asset: assets/fonts/YES24GothicB.ttf
 
-    - family: YES24CothicEB
+    - family: YES24GothicEB
       fonts:
-        - asset: assets/fonts/YES24CothicEB.ttf
+        - asset: assets/fonts/YES24GothicEB.ttf
 
-    - family: YES24CothicM
+    - family: YES24GothicM
       fonts:
-        - asset: assets/fonts/YES24CothicM.ttf
+        - asset: assets/fonts/YES24GothicM.ttf
 
-    - family: YES24CothicR
+    - family: YES24GothicR
       fonts:
-        - asset: assets/fonts/YES24CothicR.ttf
+        - asset: assets/fonts/YES24GothicR.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
