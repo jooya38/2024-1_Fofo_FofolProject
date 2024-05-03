@@ -17,7 +17,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Container(
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/background_image.png'),
+          image: AssetImage('fofo_app/assets/images/background_image.png'),
           fit: BoxFit.cover,
         ),
       ),
