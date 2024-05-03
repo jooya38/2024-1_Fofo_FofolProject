@@ -4,7 +4,7 @@ import MyProfile from './MyProfile/MyProfile.js';
 import Project from './Project/Project.js';
 import ProjectFile from './ProjectFile/ProjectFile.js';
 import Write from './Write/Write.js';
-import Main from './App.js';
+import Main from './Main.js';
 import Signup from './Signup/Signup.js';
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
