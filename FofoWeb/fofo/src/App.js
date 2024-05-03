@@ -1,10 +1,10 @@
 import './App.css';
 import Login from './Login/Login.js';
-import MyProfile from './MyProfile/MuProfile.js';
+import MyProfile from './MyProfile/MyProfile.js';
 import Project from './Project/Project.js';
 import ProjectFile from './ProjectFile/ProjectFile.js';
 import Write from './Write/Write.js';
-import Main from './App.js';
+import Main from './Main.js';
 import Signup from './Signup/Signup.js';
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -14,7 +14,7 @@ function App() {
     <div className='App'>
       {/*App.js는 건들지 말고, 새 페이지 작성해서 Route로 사용하기*/}
       {/*새로 만들어진 페이지 있으면 여기서 추가해서 사용하기*/}
-      {/*페이지 확인은 url 변경해서 확인(기본 링크에 path 부분을 덧붙여서 이동) -> ex)http://localhost:3000/Project */}
+      {/*페이지 확인은 url 변경해서 확인(기본 링크에 path 부분을 덧붙여서 이동) -> ex)http://localhost:3000/Project/Project */}
       <BrowserRouter>
         <Routes>
           <Route path={'/'} element={<Main />}></Route>
