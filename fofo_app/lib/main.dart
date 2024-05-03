@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fofo_app/mainpage.dart';
+import 'package:fofo_app/setting.dart';
 import 'signup.dart';
 
 void main(){
@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title : 'Fofol',
-      home : Signup(),
+      // home : Signup(),
+      home:Setting(),
     );
   }
 }
