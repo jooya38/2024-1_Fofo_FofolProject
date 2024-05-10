@@ -1,0 +1,20 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+  padding: 0 20px;
+  }
+  
+  .leftnav {
+    flex: 1;
+  }
+  
+  .body {
+    flex: 2; 
+  }
+  
+  .rightnav {
+    flex: 1; 
+  }
+  

@@ -1,0 +1,14 @@
+.main-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .searchBar {
+    margin-bottom: 20px;
+  }
+  
+  .content-container {
+    width: 80%; 
+  }
+  

@@ -4,7 +4,8 @@ import MyProfile from './MyProfile/MyProfile.js';
 import Project from './Project/Project.js';
 import ProjectFile from './ProjectFile/ProjectFile.js';
 import Write from './Write/Write.js';
-import Main from './Main.js';
+import Main from './After_Login/Main.js';
+// import App from './App.js';
 import Signup from './Signup/Signup.js';
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -17,7 +18,9 @@ function App() {
       {/*페이지 확인은 url 변경해서 확인(기본 링크에 path 부분을 덧붙여서 이동) -> ex)http://localhost:3000/Project/Project */}
       <BrowserRouter>
         <Routes>
-          <Route path={'/'} element={<Main />}></Route>
+          {/* <Route path={'/Before_Login'} element={<Before_Login />}></Route> */}
+          <Route path={'/'} element={<App />}></Route>
+          <Route path={'/Main'} element={<Main />}></Route>
           <Route path={'/Project'} element={<Project />}></Route>
           <Route path={'/MyProfile'} element={<MyProfile />}></Route>
           <Route path={'/Write'} element={<Write />}></Route>
