@@ -1,5 +1,6 @@
 //메인화면 body
 import React, { useEffect, useRef, useState } from "react";
+import './Main_body.css';
 
 const Main_body = () => {
     const [dragging, setDragging] = useState(false);
@@ -42,6 +43,16 @@ const Main_body = () => {
             <input type="text" placeholder="누구누구의 포트폴리오 검색" onChange={handleSearch} />
             <button onClick={handleSearch}>검색</button>
         </div>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
         <div className="content-container">
         <div dangerouslySetInnerHTML={{ __html: content }} /> 
         {/* React에서 HTML 코드를 동적렌더링할 때 필요하다는데, 음... 이 코드 사용 말고 다른 거 하는 거일 듯.. 우리 html로 불러오는 건가..? */}

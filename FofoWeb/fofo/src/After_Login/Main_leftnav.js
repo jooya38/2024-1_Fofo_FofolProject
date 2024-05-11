@@ -21,6 +21,16 @@ const Main_leftnav = () => {
         /> */}
         <h1 className="nickname">닉네임</h1>
         <p className="bio">한마디 소개</p>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
+        <p>bbbbbrrrrr</p><br></br>
       </div>
       {/* 배너 추가 */}
     </div>
