@@ -39,148 +39,99 @@ class Setting extends StatelessWidget {
               ),
             ],
           ),
-          // Container(
-            // width: double.infinity,
-            // height: 100,
-            // decoration: BoxDecoration(
-            //   border: Border.all(
-            //     width: 1,
-            //   )),
-
-          // ),
-          SettingsList(
-          sections: [
-            SettingsSection(
-              title: Text('DISPLAY ZOOM'),
-              tiles: [
-                SettingsTile.navigation(
-                  onPressed: (_) {},
-                  title: Text('View'),
-                  value: Text('Standard'),
-                  description: Text(
-                    'Choose a view for iPhone. '
-                    'Zoomed shadows larger controls. '
-                    'Standart shows more content.',
-                  ),
-                ),
-              ],
+          ListView(
+        children: [
+          ListTile(
+            title: Text('Notifications'),
+            trailing: Switch(
+              value: true, // 예시로 true 설정
+              onChanged: (bool value) {
+                // 여기에 스위치 상태 변경에 따른 로직 추가
+              },
             ),
-            SettingsSection(
-              title: Text('UI AUTOMATION'),
-              tiles: [
-                SettingsTile.switchTile(
-                  onToggle: (_) {},
-                  initialValue: true,
-                  title: Text('Enable UI Automation'),
-                ),
-                SettingsTile.navigation(
-                  title: Text('Multipath Networking'),
-                ),
-                SettingsTile.switchTile(
-                  onToggle: (_) {},
-                  initialValue: false,
-                  title: Text('HTTP/3'),
-                ),
-              ],
+          ),
+          ListTile(
+            title: Text('Dark Mode'),
+            trailing: Switch(
+              value: false, // 예시로 false 설정
+              onChanged: (bool value) {
+                // 여기에 스위치 상태 변경에 따른 로직 추가
+              },
             ),
-            SettingsSection(
-              title: Text('IAD DEVELOPER APP TESTING'),
-              tiles: [
-                SettingsTile.navigation(
-                  title: Text('Fill Rate'),
-                ),
-                SettingsTile.navigation(
-                  title: Text('Add Refresh Rate'),
-                ),
-                SettingsTile.switchTile(
-                  onToggle: (_) {},
-                  initialValue: false,
-                  title: Text('Unlimited Ad Presentation'),
-                ),
-              ],
+          ),
+          ListTile(
+            title: Text('Language'),
+            trailing: DropdownButton<String>(
+              value: 'English', // 예시로 'English' 설정
+              onChanged: (String? newValue) {
+                // 여기에 드롭다운 값 변경에 따른 로직 추가
+              },
+              items: <String>['English', 'Spanish', 'French', 'German']
+                  .map<DropdownMenuItem<String>>((String value) {
+                return DropdownMenuItem<String>(
+                  value: value,
+                  child: Text(value),
+                );
+              }).toList(),
             ),
-            SettingsSection(
-              title: Text('STATE RESTORATION TESTING'),
-              tiles: [
-                SettingsTile.switchTile(
-                  onToggle: (_) {},
-                  initialValue: false,
-                  title: Text(
-                    'Fast App Termination',
-                  ),
-                  description: Text(
-                    'Terminate instead of suspending apps when backgrounded to '
-                    'force apps to be relaunched when tray '
-                    'are foregrounded.',
-                  ),
-                ),
-              ],
-            ),
-            SettingsSection(
-              title: Text('General'),
-              tiles: [
-                SettingsTile.navigation(
-                  title: Text('Abstract settings screen'),
-                  leading: Icon(Icons.ac_unit_outlined),
-                  description:
-                      Text('UI created to show plugin\'s possibilities'),
-                  onPressed: (context) {},
-                )
-              ],
-            ),
-            // SettingsSection(
-            //   title: Text('APPEARANCE'),
-            //   tiles: [
-            //     SettingsTile.switchTile(
-            //       onToggle: (value) {
-            //         setState(() {
-            //           darkTheme = value;
-            //         });
-            //       },
-            //       initialValue: darkTheme,
-            //       title: Text('Dark Appearance'),
-            //     ),
-            //   ],
-            // ),
-            SettingsSection(
-              title: Text('Common'),
-              tiles: <SettingsTile>[
-                SettingsTile.navigation(
-                  leading: Icon(Icons.language),
-                  title: Text('Language'),
-                  value: Text('English'),
-                ),
-                SettingsTile.switchTile(
-                  onToggle: (value) {},
-                  initialValue: true,
-                  leading: Icon(Icons.format_paint),
-                  title: Text('Enable custom theme'),
-                ),
-              ],
-            ),
-          ],
-        ),
-      // SettingsList(
-      //   sections: [
-      //     SettingsSection(
-      //         tiles: <SettingsTile>[
-      //           SettingsTile.navigation(
-      //             leading: Icon(Icons.language),
-      //             title: Text('Language'),
-      //             value: Text('English'),
-      //           ),
-      //           SettingsTile.switchTile(
-      //             onToggle: (value) {},
-      //             initialValue: true,
-      //             leading: Icon(Icons.format_paint),
-      //             title: Text('Enable custom theme'),
-      //           ),
-      //         ],
-      //       ),     
-      //     ],
-      // ),
+          ),
+          // 다른 설정 옵션을 추가하려면 위와 같은 ListTile을 추가합니다.
+        ],
+      ),  
       ],
       ),
     );
   }
 }
+
+// import 'package:flutter/material.dart';
+
+// class Setting extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       appBar: AppBar(
+//         title: Text('Settings'),
+//       ),
+//       body: ListView(
+//         children: [
+//           ListTile(
+//             title: Text('Notifications'),
+//             trailing: Switch(
+//               value: true, // 예시로 true 설정
+//               onChanged: (bool value) {
+//                 // 여기에 스위치 상태 변경에 따른 로직 추가
+//               },
+//             ),
+//           ),
+//           ListTile(
+//             title: Text('Dark Mode'),
+//             trailing: Switch(
+//               value: false, // 예시로 false 설정
+//               onChanged: (bool value) {
+//                 // 여기에 스위치 상태 변경에 따른 로직 추가
+//               },
+//             ),
+//           ),
+//           ListTile(
+//             title: Text('Language'),
+//             trailing: DropdownButton<String>(
+//               value: 'English', // 예시로 'English' 설정
+//               onChanged: (String? newValue) {
+//                 // 여기에 드롭다운 값 변경에 따른 로직 추가
+//               },
+//               items: <String>['English', 'Spanish', 'French', 'German']
+//                   .map<DropdownMenuItem<String>>((String value) {
+//                 return DropdownMenuItem<String>(
+//                   value: value,
+//                   child: Text(value),
+//                 );
+//               }).toList(),
+//             ),
+//           ),
+//           // 다른 설정 옵션을 추가하려면 위와 같은 ListTile을 추가합니다.
+//         ],
+//       ),
+//     );
+//   }
+// }
