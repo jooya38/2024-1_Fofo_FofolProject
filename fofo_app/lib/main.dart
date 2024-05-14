@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:fofo_app/setting.dart';
 import 'signup.dart';
 import 'signin.dart';
+import 'package:intl/date_symbol_data_local.dart';
 
 void main() {
-  //initializeDateFormatting().then((_) => runApp(const MyApp()));
-  runApp(const MyApp());
+  initializeDateFormatting().then((_) => runApp(const MyApp()));
+  //runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {

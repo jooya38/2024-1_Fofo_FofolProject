@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:fofo_app/find_id_password.dart';
+import 'mainpage.dart';
+import 'signup.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
@@ -12,12 +15,13 @@ class _LoginScreenState extends State<LoginScreen> {
   TextEditingController logTpassword = TextEditingController();
   String? id;
   String? password;
+  bool isCorrect = true;
   @override
   Widget build(BuildContext context) {
     return Container(
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('fofo_app/assets/images/background_image.png'),
+          image: AssetImage('assets/images/background_image.png'),
           fit: BoxFit.cover,
         ),
       ),
@@ -29,13 +33,14 @@ class _LoginScreenState extends State<LoginScreen> {
           margin: const EdgeInsets.only(left: 100, right: 100),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               const Text(
                 "Fofo app",
                 style: TextStyle(
                   color: Colors.black,
-                  fontSize: 30,
+                  fontSize: 50,
+                  fontFamily: 'YES24GothicB',
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -47,31 +52,32 @@ class _LoginScreenState extends State<LoginScreen> {
                   focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.black),
                   ),
-                  hintText: "User name",
-                  hintStyle: TextStyle(fontSize: 14, color: Colors.grey),
+                  labelText: "User name",
+                  //labelStyle: TextStyle(fontSize: 14, color: Colors.grey),
                   contentPadding: EdgeInsets.all(10),
                   fillColor: Colors.white,
                   filled: true,
                 ),
-                controller: logTid,
+                controller: logTid, //데이터 베이스 연동/id 받아옴
               ),
               const SizedBox(
                 height: 5,
               ),
               TextField(
+                obscureText: true,
                 decoration: const InputDecoration(
                   enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(color: Colors.grey)),
                   focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.black),
                   ),
-                  hintText: "password",
-                  hintStyle: TextStyle(fontSize: 14, color: Colors.grey),
+                  labelText: "password",
+                  //labelStyle: TextStyle(fontSize: 14, color: Colors.grey),
                   contentPadding: EdgeInsets.all(10),
                   fillColor: Colors.white,
                   filled: true,
                 ),
-                controller: logTpassword,
+                controller: logTpassword, //데이터 베이스 연동/password 받아옴
               ),
               const SizedBox(
                 height: 10,
@@ -83,6 +89,12 @@ class _LoginScreenState extends State<LoginScreen> {
                     password = logTpassword.text;
                     print("id: $id");
                     print("password: $password");
+                    if (isCorrect) {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const MainPage()));
+                    }
                   });
                 },
                 child: Container(
@@ -104,14 +116,40 @@ class _LoginScreenState extends State<LoginScreen> {
               const SizedBox(
                 height: 2,
               ),
-              const Row(
+              Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("회원가입"),
-                  Text(" / "),
-                  Text("비밀번호 찾기"),
-                  Text(" / "),
-                  Text("아이디 찾기"),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const Signup()));
+                    },
+                    child: const Text("회원가입"),
+                  ),
+                  const Text(" / "),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const FindIDandPassword()));
+                      print("비밀번호 찾기");
+                    },
+                    child: const Text("비밀번호 찾기"),
+                  ),
+                  const Text(" / "),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const FindIDandPassword()));
+                      print("아이디 찾기");
+                    },
+                    child: const Text("아이디 찾기"),
+                  ),
                 ],
               ),
             ],
