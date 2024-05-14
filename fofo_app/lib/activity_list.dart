@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fofo_app/setting.dart';
 
 class Activity_List extends StatelessWidget {
   const Activity_List({super.key});
@@ -34,7 +35,9 @@ return Scaffold(
                   icon: Icon(Icons.settings,
                   color: Color(0xff636FA4), ),
                   iconSize: 50,
-                  onPressed: (){},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => Setting()));
+                  },
                 ),
               ),
             ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fofo_app/setting.dart';
 import 'package:fofo_app/widgets/calendar_widget.dart';
 
 class MainPage extends StatelessWidget {
@@ -33,12 +34,40 @@ class MainPage extends StatelessWidget {
                 margin: const EdgeInsets.all(20),
                 child: IconButton(
                   icon: const Icon(Icons.settings,
-                  color: Color(0xff636FA4), ),
+                  color: Color(0xff636FA4), 
+                  ),
                   iconSize: 50,
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => Setting()));
+                  },
                 ),
               ),
             ],
+          ),
+          Container(
+            width:450,
+            height: 250,
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(10),
+              gradient: LinearGradient(
+                begin : Alignment.centerLeft,
+                end: Alignment.centerRight,
+                colors:[
+                  Color(0xffBCECFF),
+                  Color(0xffC2BBFF), 
+                ],
+              ),
+            ),
+            alignment: Alignment.center,
+            child: Container(
+              width:446,
+              height: 246,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                color: Colors.white,
+              ),
+            ),
           ),
           const SizedBox(
             width: 100,

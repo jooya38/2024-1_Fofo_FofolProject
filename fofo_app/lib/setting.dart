@@ -86,6 +86,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:fofo_app/mainpage.dart';
 
 class Setting extends StatefulWidget {
   @override
@@ -113,10 +114,14 @@ class _SettingState extends State<Setting> {
               actions: [ 
                 Padding(
                   padding: EdgeInsets.fromLTRB(30, 0, 30, 0),
-                  child: Icon( Icons.home_rounded,
-                  color: Color(0xFF647087),
-                  size: 50,
-                  ),
+                  child: IconButton(
+                  icon: const Icon(Icons.home_rounded,
+                  color: Color(0xff636FA4), ),
+                  iconSize: 50,
+                  onPressed: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => MainPage()));
+                  },
+                ),
                 )],
               title: Text(
                 "Fofol",
