@@ -32,7 +32,8 @@ class MainPage extends StatelessWidget {
                 alignment: Alignment.topRight,
                 margin: const EdgeInsets.all(20),
                 child: IconButton(
-                  icon: const Icon(Icons.settings),
+                  icon: const Icon(Icons.settings,
+                  color: Color(0xff636FA4), ),
                   iconSize: 50,
                   onPressed: () {},
                 ),

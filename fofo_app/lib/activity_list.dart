@@ -31,7 +31,8 @@ return Scaffold(
                 alignment: Alignment.topRight,
                 margin: EdgeInsets.all(20),
                 child: IconButton(
-                  icon: Icon(Icons.settings),
+                  icon: Icon(Icons.settings,
+                  color: Color(0xff636FA4), ),
                   iconSize: 50,
                   onPressed: (){},
                 ),

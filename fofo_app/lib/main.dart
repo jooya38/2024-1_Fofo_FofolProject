@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fofo_app/setting.dart';
+import 'package:fofo_app/mainpage.dart';
 import 'package:intl/date_symbol_data_local.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       title: 'Fofol',
       // home : SignUp(),
       // home: LoginScreen(),
-      home: Setting(),
+      home: MainPage(),
     );
   }
 }
