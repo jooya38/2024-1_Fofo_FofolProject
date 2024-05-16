@@ -1,7 +1,6 @@
 import './App.css';
 import Login from './Login/Login.js';
 import MyProfile from './MyProfile/MyProfile.js';
-import Project from './Project/Project.js';
 import ProjectFile from './ProjectFile/ProjectFile.js';
 import Write from './Write/Write.js';
 import Main from './After_Login/Main.js';
@@ -21,7 +20,6 @@ function App() {
           {/* <Route path={'/Before_Login'} element={<Before_Login />}></Route> */}
           <Route path={'/'} element={<App />}></Route>
           <Route path={'/Main'} element={<Main />}></Route>
-          <Route path={'/Project'} element={<Project />}></Route>
           <Route path={'/MyProfile'} element={<MyProfile />}></Route>
           <Route path={'/Write'} element={<Write />}></Route>
           <Route path={'/ProjectFile'} element={<ProjectFile />}></Route>

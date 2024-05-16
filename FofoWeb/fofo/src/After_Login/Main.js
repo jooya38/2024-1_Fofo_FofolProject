@@ -1,22 +1,17 @@
 //메인 페이지 화면
 
 import Main_body from "./Main_body";
-import Main_leftnav from "./Main_nav";
-// import Main_rightnav from "./Main_rightnav";
+import Main_nav from "./Main_nav";
 import './Main.css';
-import './Main_nav.css';
 
 const Main = () => {
     return <div className="main-container">
-        <div className="leftnav">
-            <Main_leftnav />
+        <div className="nav">
+            <Main_nav />
         </div>
         <div className="body">
             <Main_body />
         </div>
-        {/* <div className="rightnav">
-            <Main_rightnav />
-        </div> */}
     </div>
 }
 
