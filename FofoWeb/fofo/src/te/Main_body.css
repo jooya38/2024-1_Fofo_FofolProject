@@ -46,9 +46,9 @@
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    width: calc(33% - 40px); /* Three projects per row */
+    width: calc(33% - 40px); 
     box-sizing: border-box;
-    position: relative; /* Set to relative for absolute positioning of button */
+    position: relative; 
   }
   
   .input-container {
@@ -71,7 +71,7 @@
     transform: translateY(-50%);
     background-color: #9a97ff;
     color: #fff;
-    border: 2px solid #555; /* Add this line for border color */
+    border: 2px solid #555; 
     border-radius: 5px;
     padding: 5px 10px;
     cursor: pointer;
@@ -81,14 +81,14 @@
   
   .create-button:hover, .edit-button:hover {
     background-color: #7d7aff;
-    transform: scale(1.1); /* Add this line for hover effect */
+    transform: scale(1.1); 
   }
   
   .add-project {
     margin-top: 10px;
     background-color: #9a97ff;
     color: #fff;
-    border: 2px solid #555; /* Add this line for border color */
+    border: 2px solid #555;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -99,7 +99,7 @@
   
   .add-project:hover {
     background-color: #7d7aff;
-    transform: scale(1.1); /* Add this line for hover effect */
+    transform: scale(1.1); 
   }
   
   .addProjectBtn {
@@ -108,10 +108,10 @@
     background-color: white;
     border: 2px solid #9a97ff;
     border-radius: 10%;
-    width: 100px; /* Adjust width to desired size */
-    height: 100px; /* Adjust height to desired size */
+    width: 100px;
+    height: 100px;
     padding: 0.5rem 1rem;
-    font-size: 2rem; /* Adjust font size to be readable */
+    font-size: 2rem;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
